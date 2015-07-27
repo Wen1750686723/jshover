@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf8">
+<head>
+	<title></title>
+	<script type="text/javascript">
+	function CharMode(iN){ 
+	if (iN>=48 && iN <=57) //数字 
+	return 1; 
+	if (iN>=65 && iN <=90) //大写 
+	return 2; 
+	if (iN>=97 && iN <=122) //小写 
+	return 4; 
+	else 
+	return 8; 
+	} 
+	alert(CharMode("A".charCodeAt()));
+	</script>
+</head>
+<body>
+
+</body>
+</html>

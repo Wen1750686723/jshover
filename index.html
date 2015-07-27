@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.textHover.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			$('#div1').textHover({ 
+			Text: 'I am going to over..', 
+			ForeColor: 'yellow', 
+			BackColor: 'Red' 
+			}); 
+			$('#div2').textHover({ Text: 'I am second div...' }); 
+		}); 
+	</script>
+
+</head>
+<body>
+<div id="div1" class="textBar"> 
+Mouse over here..... 
+</div> 
+<div id="div2" class="textBar"> 
+Mouse over here..... 
+</div> 
+</body>
+</html>
